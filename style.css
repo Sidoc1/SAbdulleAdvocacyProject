@@ -1,0 +1,448 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+
+  /* Add a background color or image */
+  background-color: lightskyblue;
+
+  background-image: url('');
+
+  /* Customize the font, size, and color for text*/
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+
+  /* Adjust the padding and margins */
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+.text1{
+  margin-left: 500px;
+  text-align:center;
+}
+#cent{
+ 
+  text-align:left;
+}
+
+h1 {
+  text-align:center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #007BFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+h2 {
+  text-align:center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+h3 {
+  text-align:center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+h4 {
+  text-align:center;
+  font-family: "Your Heading Font", sans-serif;
+  font-weight: bold;
+  font-size: 6px;
+  color: #a36c6c;
+  margin-top: 10px;
+  margin-bottom: 5px;
+   background-color: #dfe7ec;
+}
+
+
+h5 {
+  text-align:center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  text-align:center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #007BFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align:center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #0077b6;
+}
+
+ol li {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #0077b6;
+  background-color: #caf0f8;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  font-style: italic;
+  color: #2ec4b6;
+}
+
+ul li {
+  margin: 10px 0;
+  padding: 10px;
+
+  color: white;
+  border-radius: 10px;
+}
+
+a:link {
+  color: #499cd0;
+   text-decoration: none;
+
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: #df1111;
+}
+
+a:active {
+  color: green;
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+#theme-button {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font:;
+  color:Triadic;
+  padding: 10px 20px;
+  border: 2px solid #FF5733;
+   border-width: 5px; 
+}
+.dark-mode {
+  background-color:#000000;
+  color: #f7e9e9;
+
+}
+button {
+  background-color: #f7fbfd;
+  border: none;
+  color: #50a3f2;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+.important {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#interesting {
+  font-family: Nunito;
+  background-color: white;
+  font-size: 20px;
+  width: 300px; 
+  margin: 20px auto; 
+  padding: 10px; 
+  border: 2px solid #333; 
+  box-sizing: border-box; 
+}
+
+#news {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+
+
+/* Select and style elements by class name or ID */
+.header-item:nth-of-type(1){
+  text-align: center ;
+  font-weight: bold;
+  padding-top:100px;
+   margin-bottom: 50px;
+   width:40%
+   
+}
+
+.header-item:nth-of-type(2){
+   text-align: right ;
+  padding-top: 100px;
+   margin-bottom: 50px;
+  font-style: italic;
+  width:35%
+  
+}
+
+
+/* Example: This styles elements with class="header"*/
+.header-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 29px;
+  color: #333;
+  padding-top: 100px;
+  margin-bottom: 100px;
+   margin-left:10px;
+  
+
+}
+
+.header-button {
+  text-align: right ;
+  margin-right: 400px;
+  color: #000000;
+  font-size: 10px;
+  padding:1px;
+  border:10px;
+  
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #b3a2a2;;
+  background-color: #ebedef;
+}
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+  text-align: left;
+  height:10px;
+  
+  margin-left: 15px;
+  width: 200%;
+   max-width: 200%;
+  
+
+}
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+    list-style-type:none;
+     overflow:hidden;
+  position:fixed;
+  z-index: 1000;
+  top:0;
+  width:100%;
+  margin-bottom: 20px;
+  
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:#2920ac;
+    font-size: 16px;
+    text-decoration: none;
+  display:block;
+  text-align:center;
+  padding: 10px;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+  color: #d4d80e;
+}
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.petition-container{
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+  width:100%;
+  padding-bottom: 50px;
+}
+.petition-para{
+  width:55%;
+  padding-right:10px;
+    }
+.signatures{
+  width:45%;
+  padding-right:10px;
+
+}
+
+#counter{
+  
+}
+
+.error {
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
+  background:pink;
+}
+.revealable{
+   position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.active{
+
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal-button {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding for better appearance */
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Add a slight border radius for a rounded appearance */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
